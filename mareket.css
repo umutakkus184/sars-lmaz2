@@ -1,0 +1,42 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(images/silah.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+    background-color: #969696
+}
+
+nav > ul{
+    display: flex;
+    gap: 5rem;
+    list-style: none;
+}
+
+nav > ul > li{
+    padding: 1rem;
+    background-color: rgb(249, 251, 251);
+    border-radius: 25px;
+}
+
+nav > ul > li > a,
+nav > a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 26px;
+}
